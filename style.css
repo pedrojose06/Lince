@@ -237,6 +237,11 @@ body {
     text-align: center;
     color: #fff;
   }
+  .copyright{
+    margin-top: 3em;
+    font-size: medium;
+    font-weight: 600;
+  }
   
   @media (max-width: 767px) {
     #footer {
