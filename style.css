@@ -179,13 +179,14 @@ body {
   }
   
   #quote {
-      background-color: #333;
-    /* background: -webkit-image-set( url(images/lince-bg.jpg) 1x, url(images/lince-bg.jpg) 2x); */
-    height: 100vh;
+      /* background-color: #333; */
+    background: -webkit-image-set( url(images/fundo-logo.jpg) 1x, url(images/fundo-logo.jpg) 2x);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;          
     background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh; 
   }
   
   #contact {
