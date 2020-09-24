@@ -61,6 +61,42 @@ body {
   .navbar-brand{
       padding: 0;
   }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    background-color: #333;
+  }
+  .navbar-right{
+    margin: 0;
+  }  
+  .nosso-compromisso, .nossa-pagina, .como-trabalhamos, .contato{
+    height: 100vh;
+  }
+  .nossa-pagina, .nossa-equipe, .contato{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  .nossa-equipe{
+    height: 100vh;
+    background: -webkit-image-set( url(images/fundo-bico-branco-sf.png) 1x, url(images/fundo-bico-branco-sf.png) 2x);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+    background-size: 100% 100%;
+  }  
+  .como-trabalhamos{
+    background: -webkit-image-set( url(images/branco.png) 1x, url(images/branco.png) 2x);
+  }
+  .nossa-pagina{
+    background: -webkit-image-set( url(images/branco.png) 1x, url(images/branco.png) 2x);
+  }
+ .contato{
+    background: -webkit-image-set( url(images/fundo-curvo-verde.png) 1x, url(images/fundo-curvo-verde.png) 2x);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+    background-size: 100% 100%;
+ }
   .img-logo-topo{
       height: 40%;
       margin-top: 8em;
@@ -193,12 +229,13 @@ body {
   
   #push,
   #footer {
-    height: 30px;
+    height: 7em;
   }
   
   #footer {
-    background-color: transparent;
+    background-color: #333;
     text-align: center;
+    color: #fff;
   }
   
   @media (max-width: 767px) {
