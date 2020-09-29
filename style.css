@@ -82,20 +82,20 @@ body {
   .nossa-equipe{
     height: 200vh;
     width: 100%;
-    background: -webkit-image-set( url(images/fundo-bico-branco-sf.png) 1x, url(images/fundo-bico-branco-sf.png) 2x);    
+    background: url(images/fundo-bico-branco-sf.png);    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;    
     background-size: 100% 100%;
   }  
   .como-trabalhamos{
-    background: -webkit-image-set( url(images/branco.png) 1x, url(images/branco.png) 2x);
+    background: url(images/branco.png);
   }
   .nossa-pagina{
-    background: -webkit-image-set( url(images/branco.png) 1x, url(images/branco.png) 2x);
+    background: url(images/branco.png);
   }
  .contato{
-    background: -webkit-image-set( url(images/fundo-curvo-verde.png) 1x, url(images/fundo-curvo-verde.png) 2x);
+    background: url(images/fundo-curvo-verde.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;    
@@ -108,7 +108,7 @@ body {
     max-width: 850px;
     max-height: 269px;
 }
-  }
+  
   .img-responsive{
     height: auto;
     width: 100%;
@@ -208,7 +208,7 @@ body {
   
   #quote {
       /* background-color: #333; */
-    background: -webkit-image-set( url(images/fundo-logo.jpg) 1x, url(images/fundo-logo.jpg) 2x);
+    background: url(images/fundo-logo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;          
@@ -707,10 +707,10 @@ body.dark .dropdown-item {
 body.dark .navbar-light .navbar-toggler-icon {
 	border-bottom: 1px solid #fff;
 }
-body.dark .navbar-light .navbar-toggler-icon:after, 
+/* body.dark .navbar-light .navbar-toggler-icon:after, 
 body.dark .navbar-light .navbar-toggler-icon:before{
 	
-}
+} */
 body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
@@ -737,7 +737,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 		content: "";
 		border: none;
 		background-color: #000;
-		vertical-align: 0;
+		/* vertical-align: 0; */
 	}
 	.dropdown-toggle::after {
 		position: absolute;
@@ -749,7 +749,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 		content: "";
 		border: none;
 		background-color: #000;
-		vertical-align: 0;
+		/* vertical-align: 0; */
 		transition: all 200ms linear;
 	}
 	.dropdown-toggle[aria-expanded="true"]::after{
@@ -818,4 +818,19 @@ body.dark .logo img {
     margin-top: 50%;
     width: 100%;
   }
+  
+  .nossa-equipe{
+    height: 300vh;
+    width: 100%;
+    background: url(images/branco.png);    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+    background-size: 100% 100%;
+  }  
+  .div-imagens{
+    height: auto;
+    flex-wrap: wrap;
   }
+  
+}
