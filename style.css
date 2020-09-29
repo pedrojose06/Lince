@@ -71,15 +71,16 @@ body {
     height: 100vh;
     width: 100%;
   }
-  .nossa-pagina, .nossa-equipe, .contato{
+  .nossa-pagina, .nossa-equipe, .contato,.nosso-compromisso{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-size: 100% 100%;
+    
 
   }
   .nossa-equipe{
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     background: -webkit-image-set( url(images/fundo-bico-branco-sf.png) 1x, url(images/fundo-bico-branco-sf.png) 2x);    
     background-repeat: no-repeat;
@@ -101,18 +102,29 @@ body {
     background-size: 100% 100%;
  }
   .img-logo-topo{
-      height: 40%;
-      margin-top: 8em;
+    height: auto;
+    margin-top: 8em;
+    width: 80vw;
+    max-width: 850px;
+    max-height: 269px;
+}
   }
   .img-responsive{
     height: auto;
     width: 100%;
   }
-  .carol, .clara{
-    height: 50%;
+  .clara{
+    width: 100%;
+    height: auto;
+  }
+  .carol {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
   }
   .div-imagens{
     height: 100%;
+    flex-wrap: wrap;
   }
   .padding-img{
     padding:1em 9em;
@@ -795,4 +807,15 @@ body.dark .logo img {
       margin-left: -150px;
       /* Negative half of width. */
     }
+    .padding-img{
+      padding: 3em;
+    }
+    
+  .img-participantes{
+    width: 100%;
+  }
+  .img-logo-topo{
+    margin-top: 50%;
+    width: 100%;
+  }
   }
