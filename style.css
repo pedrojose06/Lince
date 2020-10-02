@@ -109,9 +109,12 @@ body {
     max-height: 269px;
 }
 .sobre-equipe{
-  font-size: x-large;
+  font-size: large;
   font-weight: 600;
   color:#333;
+}
+.icon-book {
+  color: #009e95;
 }
   .titulo-trabalhamos{
     color:#333;
@@ -286,11 +289,16 @@ body {
     margin-top: 5em;
   }
   .texto-compromisso{
+    display: table;
     font-size: x-large;
     color: #fff;
+    vertical-align: middle;
+  }
+  .texto-compromisso-divisao{
+    display: table-cell;
   }
   .homework{
-    border: 5px solid #52ad9c;
+    /* border: 5px solid #52ad9c; */
     border-radius: 25px;
     max-width: 381px;
   }
@@ -858,5 +866,9 @@ body.dark .logo img {
   }
   .sobre-equipe{
     font-size: xx-large;
+    padding: 0;
   }
+  .texto-clara{
+    margin: 0;
+    }
 }
