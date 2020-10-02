@@ -103,12 +103,20 @@ body {
  }
   .img-logo-topo{
     height: auto;
-    margin-top: 8em;
-    width: 80vw;
-    max-width: 850px;
+    margin-top: 30vh;
+    width: 75vw;
+    /* max-width: 850px; */
     max-height: 269px;
 }
-  
+.sobre-equipe{
+  font-size: x-large;
+  font-weight: 600;
+  color:#333;
+}
+  .titulo-trabalhamos{
+    color:#333;
+    padding-top: 3rem;
+  }
   .img-responsive{
     height: auto;
     width: 100%;
@@ -163,7 +171,7 @@ body {
   
   li>a {
     font-weight: 800;
-    font-size: 1.3em;
+    font-size: 1em;
     display: inline;
   }
   
@@ -271,8 +279,22 @@ body {
     font-size: medium;
     font-weight: 600;
   }
-  .img-participantes{
+  .img-participantes, .texto-compromisso-divisao{
     width: 50%;
+  }
+  .texto-clara{
+    margin-top: 5em;
+  }
+  .texto-compromisso{
+    font-size: x-large;
+    color: #fff;
+  }
+  .homework{
+    border: 5px solid #52ad9c;
+    border-radius: 25px;
+  }
+  .texto-compromisso-divisao {
+    padding: 2em 3em;
   }
 
   /* =================== Nav Bar da Net ============================ */
@@ -391,7 +413,6 @@ body {
 }
 .nav-link {
 	position: relative;
-	padding: 5px 0 !important;
 	display: inline-block;
 }
 .nav-item:after{
@@ -811,14 +832,16 @@ body.dark .logo img {
       padding: 3em;
     }
     
-  .img-participantes{
+  .img-participantes, .texto-compromisso-divisao{
     width: 100%;
   }
   .img-logo-topo{
     margin-top: 50%;
     width: 100%;
   }
-  
+  .imagem-compromisso{
+    display: none;
+  }
   .nossa-equipe{
     height: 300vh;
     width: 100%;
@@ -828,9 +851,11 @@ body.dark .logo img {
     background-size: cover;    
     background-size: 100% 100%;
   }  
-  .div-imagens{
+  .div-imagens, .texto-compromisso{
     height: auto;
     flex-wrap: wrap;
   }
-  
+  .sobre-equipe{
+    font-size: xx-large;
+  }
 }
