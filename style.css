@@ -292,6 +292,7 @@ body {
   .homework{
     border: 5px solid #52ad9c;
     border-radius: 25px;
+    max-width: 381px;
   }
   .texto-compromisso-divisao {
     padding: 2em 3em;
