@@ -94,6 +94,26 @@ body {
   .nossa-pagina{
     background: url(images/branco.png);
   }
+  .nossa-pagina h1 {
+    color: #ff8a00;
+  } 
+  .texto-nossa-pagina{
+    color: #333;
+    width: 33vw;
+    margin: 0 auto;
+  }
+  .print{
+    width: 60vw;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid #009e95;
+  }
+  .btnPagina{
+    background-color: #ff8a00 !important;
+    color: #fff;
+    width: 200px;
+   
+  }
  .contato{
     background: url(images/fundo-curvo-verde.png);
     background-repeat: no-repeat;
