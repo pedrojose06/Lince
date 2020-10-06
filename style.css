@@ -99,14 +99,15 @@ body {
   } 
   .texto-nossa-pagina{
     color: #333;
-    width: 33vw;
+    /* width: 33vw; */
     margin: 0 auto;
   }
   .print{
     width: 60vw;
-    height: 300px;
+    height: 50vh;
     margin: 0 auto;
     border: 2px solid #009e95;
+    border-radius: 25px;
   }
   .btnPagina{
     background-color: #ff8a00 !important;
@@ -120,6 +121,12 @@ body {
     background-position: center;
     background-size: cover;    
     background-size: 100% 100%;
+ }
+ .conteudo-contato{
+   border: #ff8a00;
+   border-radius: 25px;
+   height: 50px;
+   width: 40vw;
  }
   .img-logo-topo{
     height: auto;
@@ -891,5 +898,19 @@ body.dark .logo img {
   }
   .texto-clara{
     margin: 0;
+    }
+    .contato{
+      background: url(images/fundo-curvo-verde-smallDevice.png);
+      background-size: 100% 100%;
+    }
+    .print{
+      width: 80vw;
+    }
+    .btnPagina{
+      width: 70vw;
+      font-size: xx-large;
+    }
+    .texto-nossa-pagina{
+      display: none;
     }
 }
